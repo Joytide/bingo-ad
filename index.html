@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>BingAD</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css"> <!-- External CSS -->
+</head>
+<body>
+
+    <!-- Title Section -->
+    <div id="title" style="text-align: center; margin-top: 20px;">
+        <h1>BingAD: The AD Bingo</h1>
+    </div>
+
+    <div class="bingo-container">
+        <table id="bingo" class="table table-bordered">
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+        <button id="golden" class="btn btn-warning">GOLDEN BUZZER</button>
+        <button id="reroll" class="btn btn-primary">REROLL</button>
+    </div>    
+
+    <!-- Rules Section -->
+    <div id="rules" style="text-align: center; margin-top: 20px;">
+        <h4>Rules:</h4>
+        <p>1. No rerolls!<br>
+        2. Squares with * implies that if this square affects a DA, ring the golden buzzer!</p>
+    </div>
+	
+    <script type="text/javascript" src="fr.json"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

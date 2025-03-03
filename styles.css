@@ -1,0 +1,70 @@
+/* General Reset for Body */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Title Section */
+#title {
+    text-align: center;
+    margin-bottom: 10px; /* Reduced space below title */
+}
+
+#title h1 {
+    font-size: 1.8rem; /* Slightly smaller title */
+    margin: 0;
+}
+
+/* Bingo Container */
+.bingo-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 70vh;            /* Reduced height to keep all elements visible */
+    margin: 5px 0;           /* Compact spacing above and below */
+}
+
+/* Bingo Table */
+#bingo {
+    width: 50%;              /* 50% width */
+    height: 50%;             /* 50% height */
+    table-layout: fixed;     /* Equal cell sizes */
+    border: 3px solid #999999;
+    margin: 0;               /* Remove default margin */
+}
+
+#bingo td {
+    text-align: center;
+    border: 1px solid #999999;
+    vertical-align: middle;
+    font-size: 18px;         /* Slightly smaller font */
+    height: calc(50% / 5);   /* Adjust height for grid */
+}
+
+
+/* Button Container */
+#golden, #reroll {
+    display: inline-block;  /* Keep buttons side by side */
+    margin: 10px 5px;       /* Space between buttons */
+    padding: 6px 12px;      /* Consistent padding */
+    font-size: 16px;
+}
+
+
+/* Rules Section */
+#rules {
+    text-align: center;
+    font-size: 14px;   
+    margin-top: 10px;        /* Reduced spacing */
+}
+
+#rules h4 {
+    margin: 0 0 5px 0;       /* Tight margin below Rules heading */
+    font-size: 16px;
+}
+
+#rules p {
+    margin: 0;               /* Eliminate extra paragraph spacing */
+    line-height: 1.4;        /* Tighter line height */
+}
